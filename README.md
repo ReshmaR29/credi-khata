@@ -1,12 +1,35 @@
-# React + Vite
+# CrediKhaata - Loan Ledger UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js web application designed for small shopkeepers to manage customer credit, track transactions, and record repayments.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Customer management
+- Loan tracking
+- Repayment recording
+- Outstanding balance calculation
+- PDF statement generation
+- Responsive design
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm start` or `npm run dev`
+
+## Deployment
+
+The application can be deployed to any static hosting service like Netlify, Vercel, or Firebase Hosting.
+
+1. Build the production version: `npm run build`
+2. Deploy the `build` folder to your hosting service
+
+## Technologies Used
+
+- React.js
+- React Router
+- Tailwind CSS
+- React Hook Form
+- jsPDF (for PDF generation)
+- React Toastify (for notifications)
+- Cookies
